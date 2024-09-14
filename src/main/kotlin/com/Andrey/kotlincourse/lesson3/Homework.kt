@@ -19,4 +19,3 @@ private lateinit var contactinformation: String
 var status: String = "not started"
 
 val notstarted: String = "list of sponsors"
-
