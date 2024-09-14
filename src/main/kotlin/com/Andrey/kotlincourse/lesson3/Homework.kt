@@ -38,33 +38,33 @@ lateinit var mealSchedule: String
 
 val disasterPlan: String = "План на случай сбоя"
 
-var listOfExpertsAndJury: String = ""
+var listOfExpertsAndJury: String = "Список жури и экспертов"
 
-val metod: String = ""
+val metod: String = "Методы и процедуры для сбора отзывов"
 
-private val privacyPolicy: String = ""
+private val privacyPolicy: String = "Политика конфиденциальности"
 
 private val privateReviews: String by lazy { "" }
 
 var temperatureIndoor: Int = 26
 
-val monitoring: String = ""
+val monitoring: String = "Мониторинг и анализ производительности сетевого оборудования "
 
 var lightingLevel: Int = 1200
 
-private  val eventLog: String = ""
+private  val eventLog: String = "Лог событий мероприятия"
 
 val availabilityOfMedicalCare: Boolean = true
 
-private val securityPlan: String = ""
+private val securityPlan: String = "Планы и процедуры для обеспечения безопасности"
 
 val eventRegistrationNumber: Int = 234367
 
 val maximumPermissibleNoiseLevel: Int = 75
 
-var noiseLevelIndicator: String = ""
+var noiseLevelIndicator: String = "Индикатор превышения уровня шума"
 
-var eventFormat: String = ""
+var eventFormat: String = "Формат мероприятия"
 
 var numberOfAvailableSeats: Int = 149
     get() = field
@@ -80,7 +80,7 @@ var permissionStatus: String = ""
 
 val exclusiveResources: Boolean = true or false
 
-val listPartners: String = ""
+val listPartners: String = "Список партнеров "
 
 lateinit var report: String
 
