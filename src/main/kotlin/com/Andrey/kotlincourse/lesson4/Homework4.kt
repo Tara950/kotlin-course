@@ -24,7 +24,7 @@ package com.Andrey.kotlincourse.lesson4
 
  val text: String = "OpenAI"
 
- val anything: Any = “true”
+ val myBoolean: Boolean = true
 
  val myChar: Char = '9'
 
@@ -54,9 +54,9 @@ package com.Andrey.kotlincourse.lesson4
 
  val myBoolean: Boolean = true
 
- val anything: Nothing = “🤯”
+ val myString: String = "🤯"
 
- val anything: Nothing = ‘65535’
+ val myString: String = "65535"
 
  val myLong: Long = 72057594037927935L
 
