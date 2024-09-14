@@ -16,37 +16,37 @@ var duration: Long = 12*60*60
 
 private var contactinformation: String = ""
 
-var status: String = "not started"
+var status: String = "Не начат"
 
-val notstarted: String = "list of sponsors"
+val notstarted: String = "Список спонсоров"
 
 var internetAccessLevel: Int = 4
 
-private var information: String = "Transportation information"
+private var information: String = "Информация о транспортировке"
 
 var numberOfCommands: Int = 0
 
-val tasks: String = "Tasks"
+val tasks: String = "Задачи"
 
-val evacuationPlan: String = "Evacuation plan"
+val evacuationPlan: String = "План эвакуации"
 
 var listOfAvailableEquipment: String = "85"
 
 var listOfFreeEquipment: String = "85"
 
-val disasterPlan: String = "Disaster plan"
-
 lateinit var mealSchedule: String
+
+val disasterPlan: String = "План на случай сбоя"
 
 var listOfExpertsAndJury: String = ""
 
 val metod: String = ""
 
-var temperatureIndoor: Int = 26
-
 private val privacyPolicy: String = ""
 
 private val privateReviews: String by lazy { "" }
+
+var temperatureIndoor: Int = 26
 
 val monitoring: String = ""
 
@@ -56,7 +56,7 @@ private  val eventLog: String = ""
 
 val availabilityOfMedicalCare: Boolean = true
 
-val securityPlan: String = ""
+private val securityPlan: String = ""
 
 val eventRegistrationNumber: Int = 234367
 
@@ -66,7 +66,7 @@ var noiseLevelIndicator: String = ""
 
 var eventFormat: String = ""
 
-var numberOfAvailableSeats: Int = 0
+var numberOfAvailableSeats: Int = 149
     get() = field
     set(value) {
         if (value >= 0) field += value
